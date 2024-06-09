@@ -345,9 +345,9 @@ faq
     cursor: pointer;
     border-radius: 1em;
     margin: 10px;
-  }
+}
 
-  .faq-content:after {
+.faq-content:after {
     content: "";
     position: absolute;
     top: 50%; 
@@ -361,46 +361,44 @@ faq
     transition: rotate 0.4s 0s ease;
     clip-path: polygon(25% 10%, 25% 90%, 75% 50%);
     transform: translateY(-50%); 
-  }
+}
 
-  .faq-content[open]:after {
+.faq-content[open]:after {
     rotate: 90deg;
-    padding-bottom: 10px;
-  }
-  .faq-content[open] .faq-q:after {
+}
+.faq-content[open] .faq-q:after {
     position: absolute;
     display: block;
-  }
+}
   /* Q */
-  .faq-q {
+.faq-q {
     font-weight: bold;
     display: flex;
     align-items: center;
     padding: 15px 10px 15px;
     align-items: center;
     height: auto; 
-  }
-
-  .faq-q:before {
+}
+.faq-q:before {
     content: "Q.";
     display: block;
     height: auto;
-  }
+}
   /* A */
-  .faq-a {
+.faq-a {
     height: auto;
     margin: 0;
     display: flex;
     align-items: center;
     padding: 15px 10px 15px;
-  }
-  .faq-a:before {
+}
+.faq-a:before {
     content: "A.";
     font-weight: bold;
     height: auto;
-  }
+}
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .faq-content{
         padding: 10px;
     }
