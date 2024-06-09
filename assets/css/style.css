@@ -411,6 +411,7 @@ faq
         margin-right: 15px;
         white-space: nowrap;
     }
+}
 
 /* 
 form
@@ -507,6 +508,7 @@ footer
     text-align: center;
     padding: 10px;
 }
+
 @media screen and (max-width: 768px){
     .footer-map {
         padding: 15px;
